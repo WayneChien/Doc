@@ -5,7 +5,7 @@ Add ADFS Relying Party Trust
 ![](https://i.imgur.com/0CcxB2m.png)
 
 2. Click **Start** then paste the **Entity ID** url in to the **Federation Metadata** address field and click **Next**.
-Entity ID: https://waynetest01.asuscomm.com/simplesaml/module.php/saml/sp/metadata.php/default-sp
+Entity ID: https://ns1.asuscomm.com/simplesaml/module.php/saml/sp/metadata.php/default-sp
 ![](https://i.imgur.com/F5gOGaT.png)
 
 3. Accept the warning.
@@ -14,9 +14,9 @@ Entity ID: https://waynetest01.asuscomm.com/simplesaml/module.php/saml/sp/metada
 4. Reach the **Ready To Add Trust** page.check the **Encryption** and **Signature** tabs
 ![](https://i.imgur.com/StB8VKN.png)
 
-5. Click **Next** and check the **waynetest01.asuscomm.com** Relying Party Trust is added.
+5. Click **Next** and check the **ns1.asuscomm.com** Relying Party Trust is added.
 
-6. Select the **waynetest01.asuscomm.com** and then click **Edit Claim Rules…**
+6. Select the **ns1.asuscomm.com** and then click **Edit Claim Rules…**
 ![](https://i.imgur.com/4eJeeIR.png)
 
 7. Add an **Issuance Transform Rule** based on the **Send LDAP Attributes as Claims** template. 
